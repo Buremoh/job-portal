@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bolaji's Job Portal</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script defer src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-------Header------->
+    <section id="header">
+      <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#" style="color: white;">The Marios</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active-nav-link" href="about.html">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="banner text-center">
+        <h1>JOBS AROUND YOU</h1>
+        <p>Subscribe to The Marios</p>
+      </div>
+    </section>
+    <div class="search-job text-center">
+      <input type="text" class="form-control" placeholder="search-keyword" />
+      <input type="text" class="form-control" placeholder="company" />
+      <input type="text" class="form-control" placeholder="location" />
+      <input type="button" class="btn btn-primary" value="Find Job" />
+    </div>
+
+    <!------------------top recruiters------------------>
+    <section id="recruiters">
+      <div class="container text-center">
+        <h3>TOP RECRUITERS</h3>
+        <div>
+          <img src="images/dell.png" />
+          <img src="images/oracle.png" />
+          <img src="images/cisco.png" />
+          <img src="images/netflix.png" />
+          <img src="images/affect.png" />
+          <img src="images/amazon.png" />
+        </div>
+
+        <div>
+          <img src="images/infosys.png" />
+          <img src="images/byju.png" />
+          <img src="images/indeed.png" />
+          <img src="images/tnw.png" />
+          <img src="images/danone.jpg" />
+          <img src="images/IBM.png" />
+        </div>
+
+        <div>
+          <img src="images/adobe.png" />
+          <img src="images/idc.jpg" />
+          <img src="images/fedex.png" />
+          <img src="images/walmart.png" />
+          <img src="images/microsoft.png" />
+          <img src="images/forbes.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------Recent Jobs--------------->
+    <section id="jobs">
+      <div class="container">
+        <h5>RECENT UPDATES</h5>
+        <div class="conpany-details">
+          <div class="job-update">
+            <h4><b>Software Developer</b></h4>
+            <p>Baker Phillips</p>
+            <i class="fa fa-briefcase"></i><span> 2-3 yrs</span><br />
+            <i class="fas fa-pound-sign"></i
+            ><span>
+              £35,000 per hour, 23 days holiday, pension, health, excellent
+              env</span
+            ><br />
+            <i class="fa fa-map-marker"></i
+            ><span> Stoke-On-Trent, Staffordshire</span><br />
+            <p>
+              Skills<i class="fa fa-angle-double-right"></i><small>C#</small
+              ><small>.NET</small><small>HTML,CSS</small><small>.Net</small>
+            </p>
+            <p>
+              Description<i class="fa fa-angle-double-right"></i>Subscribe The
+              Marios for more information on web designing and digital
+              marketing.
+              <a href="https://bit.ly/35I9bwB">Read more</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="baker"
+              onclick="apply1()"
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+
+        <div class="conpany-details">
+          <div class="job-update">
+            <h4><b>Software Developer - Sales CRM</b></h4>
+            <p>Client Server</p>
+            <i class="fa fa-briefcase"></i><span> 0-1 yrs</span><br />
+            <i class="fas fa-pound-sign"></i><span>£65,000-£75,000 p.a</span
+            ><br />
+            <i class="fa fa-map-marker"></i><span>Leeds</span><br />
+            <p>
+              Skills<i class="fa fa-angle-double-right"></i><small>java</small
+              ><small>python</small><small>HTML,CSS</small><small>.Net</small>
+            </p>
+            <p>
+              Description<i class="fa fa-angle-double-right"></i>Subscribe to
+              The Marios for more information on web designing and digital
+              marketing.
+              <a href="https://bit.ly/2xJ792y">Read more</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="client"
+              onclick="apply2()"
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+
+        <div class="conpany-details">
+          <div class="job-update">
+            <h4><b>Software Developer</b></h4>
+            <p>Nigel Frank International</p>
+            <i class="fa fa-briefcase"></i><span> 2 yrs</span><br />
+            <i class="fas fa-pound-sign"></i><span>£20,000 - £450,000 p.a</span
+            ><br />
+            <i class="fa fa-map-marker"></i
+            ><span> Oldham, Greater Manchester</span><br />
+            <p>
+              Skills<i class="fa fa-angle-double-right"></i><small>java</small
+              ><small>SQL</small><small>HTML,CSS</small><small>.Net</small>
+            </p>
+            <p>
+              Description<i class="fa fa-angle-double-right"></i>Subscribe to
+              The Marios for more information on web designing and digital
+              marketing. <a href="https://bit.ly/2WFFLLu">Read more</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="nigel"
+              onclick="apply3()"
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+
+        <div class="conpany-details">
+          <div class="job-update">
+            <h4><b>Full Stack Software Developer</b></h4>
+            <p>Spectrum</p>
+            <i class="fa fa-briefcase"></i><span> 0-1 yrs</span><br />
+            <i class="fas fa-pound-sign"></i><span>£45,000 - £60,000 p. a.</span
+            ><br />
+            <i class="fa fa-map-marker"></i><span> Fleet, Hampshire</span><br />
+            <p>
+              Skills<i class="fa fa-angle-double-right"></i><small>ASP</small
+              ><small>React</small><small>MVC</small><small>.Net</small>
+            </p>
+            <p>
+              Description<i class="fa fa-angle-double-right"></i>Subscribe to
+              The Marios for more information on web designing and digital
+              marketing. <a href="https://bit.ly/2yHJyjf">Read more</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="spectrum"
+              onclick="apply4()"
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+
+        <div class="conpany-details">
+          <div class="job-update">
+            <h4><b>Software Developer</b></h4>
+            <p>Premier IT</p>
+            <i class="fa fa-briefcase"></i><span> 0-1 yrs</span><br />
+            <i class="fas fa-pound-sign"></i><span>£30,000 - £40,000 p. a.</span
+            ><br />
+            <i class="fa fa-map-marker"></i><span>Liverpool, Merseyside</span
+            ><br />
+            <p>
+              Skills<i class="fa fa-angle-double-right"></i><small>C#</small
+              ><small>Web APIs</small><small>MVC</small><small>.Net</small>
+            </p>
+            <p>
+              Description<i class="fa fa-angle-double-right"></i>Subscribe to
+              The Marios for more information on web designing and digital
+              marketing. <a href="https://bit.ly/2A6uwE4">Read more</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="premier"
+              onclick="apply5()"
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+        <ul class="page-link text-center">
+          <li class="left-arrow">&#8592;</li>
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li class="right-arrow">&#8594;</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-------------Site Stats--------------->
+    <section id="site-stats">
+      <div class="container text-center">
+        <h3>THE MARIOS SITE STATS</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa fa-user-o"></i><span><small>100k +</small></span>
+                  <p>Job Seekers</p>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa fa-slideshare"></i
+                  ><span><small>500 +</small></span>
+                  <p>Employers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa fa-hand-peace-o"></i
+                  ><span><small>10k +</small></span>
+                  <p>Active Jobs</p>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa fa-building-o"></i
+                  ><span><small>400 +</small></span>
+                  <p>Companies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------App Banner--------------->
+
+    <section id="app-banner" class="text-center">
+      <h1>Find Jobs on Mobile, Download The Marios App</h1>
+      <a href="https://apple.co/3ckqkic"><img src="images/app-store.png" /></a>
+      <a href="https://bit.ly/3dnq16q"><img src="images/play-store.png" /></a>
+    </section>
+
+    <!-------------Footer--------------->
+
+    <section id="footer" class="text-center">
+      <p class="footer-image"><strong>The Marios</strong></p>
+      <p>
+        Subscribe to The Marios for more information on web designing and
+        digital marketing.<br />
+        Press the bell icon to get notification of new offers
+      </p>
+      <a href="#"><img src="images/twitter-icon.png" /></a>
+      <a href="#"><img src="images/facebook-icon.png" /></a>
+      <a href="#"><img src="images/whatsapp-icon2.png" /></a>
+      <a href="#"><img src="images/linkedin-icon.png" /></a>
+      <hr />
+      <p>Made with <i class="fa fa-heart"></i> by The Marios</p>
+    </section>
+  </body>
+</html>
